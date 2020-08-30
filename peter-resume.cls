@@ -84,7 +84,7 @@
 % ---------------------------------------------------------------------------- %
 % Size of the margin
 \newlength{\margin}
-\setlength{\margin}{20mm}
+\setlength{\margin}{10mm}
 
 % Size of the left column
 \newlength{\leftcol}
@@ -335,12 +335,12 @@
 \newenvironment{cvitems}{
   \vspace{-4mm}
   \begin{justify}
-  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+  \begin{itemize}[leftmargin=-10ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
 }{
   \end{itemize}
   \end{justify}
-  \vspace{-2mm}
+  \vspace{-4mm}
 }
 
 % ---------------------------------------------------------------------------- %
